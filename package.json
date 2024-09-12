@@ -6,7 +6,7 @@
   "files": [
     "Sage-Vite/"
   ],
-  "repository": "https://github.com/rajpatel2435/sage-vite",
+  "repository": "https://github.com/rajpatel2435/Sage_Vite",
   "author": "Raj Patel <rajpatel2435@gmail.com> ",
   "license": "MIT",
 "keywords": [
@@ -34,6 +34,7 @@
   },
   "type": "module",
   "scripts": {
+    "postinstall": "cp -r Sage-Vite/* ./",
     "dev": "vite",
     "build": "vite build",
     "translate": "npm run translate:pot && npm run translate:update",
